@@ -40,3 +40,5 @@ all.counts$AoverC <- ___________
 plot(all.counts$AoverC, all.counts$ABoverC)
 my.results <- GetCladeCounts(my.tree)
 points(my.results$A / my.results$C, (my.results$A + my.results$B) / my.results$C, pch=20, col="red")
+
+
